@@ -1,0 +1,6 @@
+framework module Pods_ForFit {
+  umbrella header "Pods-ForFit-umbrella.h"
+
+  export *
+  module * { export * }
+}
