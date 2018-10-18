@@ -9,15 +9,16 @@
 import UIKit
 import FirebaseAuth
 
-
 class LoginViewController: UIViewController {
     
     @IBOutlet weak var inputUsername: UITextField!
     @IBOutlet weak var inputPassword: UITextField!
-    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.navigationController?.navigationBar.tintColor = UIColor.white
         
         inputUsername.text = "rubens.ifce@gmail.com"
         inputPassword.text = "@rbns32#"
@@ -26,6 +27,13 @@ class LoginViewController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+    }
+    
+    func presentHome(){
+        let storyboard = UIStoryboard(name: "Menu", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "Menu") as UIViewController
+        
+        self.present(controller, animated: true, completion: nil)
     }
     
     @IBAction func CreateAccount(_ sender: UIButton) {
@@ -52,9 +60,8 @@ class LoginViewController: UIViewController {
             if error != nil {
                 print("Incorrect")
             } else {
-                print("HAEA")
+                print("Correct")
             }
-            
         }
         
     }
