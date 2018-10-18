@@ -15,6 +15,7 @@
 		217501592176366C001B1B85 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 217501582176366C001B1B85 /* GoogleService-Info.plist */; };
 		2175015B21764040001B1B85 /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2175015A21764040001B1B85 /* FirebaseDatabase.framework */; };
 		2175015D21764048001B1B85 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2175015C21764048001B1B85 /* FirebaseCore.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		2175016021777B7C001B1B85 /* gymer_back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2175015F21777B7C001B1B85 /* gymer_back.jpg */; };
 		4E052E3C1A050F727E6DD8FC /* Pods_ForFit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B9EBDC56E58DB55F340C73 /* Pods_ForFit.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		217501582176366C001B1B85 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2175015A21764040001B1B85 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2175015C21764048001B1B85 /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2175015F21777B7C001B1B85 /* gymer_back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gymer_back.jpg; path = ../../screens/gymer_back.jpg; sourceTree = "<group>"; };
 		3973A4D1065FFD630B52B5C5 /* Pods-ForFit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForFit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ForFit/Pods-ForFit.debug.xcconfig"; sourceTree = "<group>"; };
 		A0001B5D9093BBAB8ED10AF9 /* Pods-ForFit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForFit.release.xcconfig"; path = "Pods/Target Support Files/Pods-ForFit/Pods-ForFit.release.xcconfig"; sourceTree = "<group>"; };
 		D4B9EBDC56E58DB55F340C73 /* Pods_ForFit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForFit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +62,7 @@
 		2175013A21763106001B1B85 = {
 			isa = PBXGroup;
 			children = (
+				2175015E21777AA1001B1B85 /* Assets */,
 				2175014521763106001B1B85 /* ForFit */,
 				2175014421763106001B1B85 /* Products */,
 				1A072439BDB409F24630DF45 /* Pods */,
@@ -87,6 +90,14 @@
 				217501522176310E001B1B85 /* Info.plist */,
 			);
 			path = ForFit;
+			sourceTree = "<group>";
+		};
+		2175015E21777AA1001B1B85 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2175015F21777B7C001B1B85 /* gymer_back.jpg */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		D698F953B6126A27244311F3 /* Frameworks */ = {
@@ -160,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				217501512176310E001B1B85 /* LaunchScreen.storyboard in Resources */,
+				2175016021777B7C001B1B85 /* gymer_back.jpg in Resources */,
 				217501592176366C001B1B85 /* GoogleService-Info.plist in Resources */,
 				2175014E2176310E001B1B85 /* Assets.xcassets in Resources */,
 				2175014C21763106001B1B85 /* Main.storyboard in Resources */,
