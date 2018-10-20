@@ -30,9 +30,9 @@ class LoginViewController: UIViewController {
     }
     
     func presentHome(){
-        let storyboard = UIStoryboard(name: "Menu", bundle: nil)
-        let controller = storyboard.instantiateViewController(withIdentifier: "Menu") as UIViewController
         
+        let controller = storyboard?.instantiateViewController(withIdentifier: "MainTabController") as! MainTabController
+        controller.selectedViewController = controller.viewControllers?[2]
         self.present(controller, animated: true, completion: nil)
     }
     
@@ -42,9 +42,11 @@ class LoginViewController: UIViewController {
             
             if error != nil {
                 self.login()
+                self.presentHome()
             } else {
                 print("User Created")
                 self.login()
+                self.presentHome()
             }
         }
         

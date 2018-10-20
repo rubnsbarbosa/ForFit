@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21712F5B217B81E000E9C4E2 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21712F5A217B81E000E9C4E2 /* MainTabController.swift */; };
+		21712F5D217B857B00E9C4E2 /* scale.png in Resources */ = {isa = PBXBuildFile; fileRef = 21712F5C217B857B00E9C4E2 /* scale.png */; };
+		21712F5F217B85CB00E9C4E2 /* dumbbell.png in Resources */ = {isa = PBXBuildFile; fileRef = 21712F5E217B85CB00E9C4E2 /* dumbbell.png */; };
+		21712F61217B861D00E9C4E2 /* forms.png in Resources */ = {isa = PBXBuildFile; fileRef = 21712F60217B861D00E9C4E2 /* forms.png */; };
+		21712F63217B866000E9C4E2 /* stopwatch.png in Resources */ = {isa = PBXBuildFile; fileRef = 21712F62217B866000E9C4E2 /* stopwatch.png */; };
+		21712F65217B869900E9C4E2 /* credit-card.png in Resources */ = {isa = PBXBuildFile; fileRef = 21712F64217B869800E9C4E2 /* credit-card.png */; };
 		2175014721763106001B1B85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2175014621763106001B1B85 /* AppDelegate.swift */; };
 		2175014921763106001B1B85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2175014821763106001B1B85 /* ViewController.swift */; };
 		2175014C21763106001B1B85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2175014A21763106001B1B85 /* Main.storyboard */; };
@@ -21,6 +27,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21712F5A217B81E000E9C4E2 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		21712F5C217B857B00E9C4E2 /* scale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scale.png; path = ../../icons/scale.png; sourceTree = "<group>"; };
+		21712F5E217B85CB00E9C4E2 /* dumbbell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dumbbell.png; path = ../../icons/dumbbell.png; sourceTree = "<group>"; };
+		21712F60217B861D00E9C4E2 /* forms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = forms.png; path = ../../icons/forms.png; sourceTree = "<group>"; };
+		21712F62217B866000E9C4E2 /* stopwatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stopwatch.png; path = ../../icons/stopwatch.png; sourceTree = "<group>"; };
+		21712F64217B869800E9C4E2 /* credit-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "credit-card.png"; path = "../../icons/credit-card.png"; sourceTree = "<group>"; };
 		2175014321763106001B1B85 /* ForFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2175014621763106001B1B85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2175014821763106001B1B85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +99,7 @@
 				2175014621763106001B1B85 /* AppDelegate.swift */,
 				2175014821763106001B1B85 /* ViewController.swift */,
 				2175014A21763106001B1B85 /* Main.storyboard */,
+				21712F5A217B81E000E9C4E2 /* MainTabController.swift */,
 				2175014D2176310E001B1B85 /* Assets.xcassets */,
 				2175014F2176310E001B1B85 /* LaunchScreen.storyboard */,
 				217501522176310E001B1B85 /* Info.plist */,
@@ -98,6 +111,11 @@
 		2175015E21777AA1001B1B85 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				21712F64217B869800E9C4E2 /* credit-card.png */,
+				21712F62217B866000E9C4E2 /* stopwatch.png */,
+				21712F60217B861D00E9C4E2 /* forms.png */,
+				21712F5E217B85CB00E9C4E2 /* dumbbell.png */,
+				21712F5C217B857B00E9C4E2 /* scale.png */,
 				2175015F21777B7C001B1B85 /* gymer_back.jpg */,
 			);
 			path = Assets;
@@ -176,7 +194,12 @@
 				217501512176310E001B1B85 /* LaunchScreen.storyboard in Resources */,
 				2175016021777B7C001B1B85 /* gymer_back.jpg in Resources */,
 				217501592176366C001B1B85 /* GoogleService-Info.plist in Resources */,
+				21712F61217B861D00E9C4E2 /* forms.png in Resources */,
+				21712F5F217B85CB00E9C4E2 /* dumbbell.png in Resources */,
+				21712F63217B866000E9C4E2 /* stopwatch.png in Resources */,
 				2175014E2176310E001B1B85 /* Assets.xcassets in Resources */,
+				21712F5D217B857B00E9C4E2 /* scale.png in Resources */,
+				21712F65217B869900E9C4E2 /* credit-card.png in Resources */,
 				2175014C21763106001B1B85 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,6 +258,7 @@
 			files = (
 				217501622178CC17001B1B85 /* LoginViewController.swift in Sources */,
 				2175014921763106001B1B85 /* ViewController.swift in Sources */,
+				21712F5B217B81E000E9C4E2 /* MainTabController.swift in Sources */,
 				2175014721763106001B1B85 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
