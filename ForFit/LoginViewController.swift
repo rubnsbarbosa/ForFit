@@ -13,12 +13,14 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var inputUsername: UITextField!
     @IBOutlet weak var inputPassword: UITextField!
-
+    @IBOutlet weak var btnLogin: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationController?.navigationBar.tintColor = UIColor.white
+        btnLogin.layer.cornerRadius = 20.0
+        // tfUsername.layer.borderColor = UIColor.white.cgColor
         
         inputUsername.text = "rubens.ifce@gmail.com"
         inputPassword.text = "@rbns32#"
@@ -27,6 +29,10 @@ class LoginViewController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
     }
     
     func presentHome(){

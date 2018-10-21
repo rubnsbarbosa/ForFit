@@ -102,13 +102,14 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="btnLogin" destination="1Qr-tf-ugo" id="onN-eQ-D7n"/>
                         <outlet property="inputPassword" destination="5t1-Nr-hjL" id="oSz-s9-dJ3"/>
                         <outlet property="inputUsername" destination="70G-wO-Pmz" id="8kI-iu-42x"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-881" y="-172"/>
+            <point key="canvasLocation" x="-882.39999999999998" y="-172.26386806596702"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="7MZ-Lo-Pd2">
@@ -165,7 +166,7 @@
                     <view key="view" contentMode="scaleToFill" id="WGM-KC-2hS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="fj2-xY-hDM"/>
                     </view>
                     <navigationItem key="navigationItem" id="hke-J4-WMM"/>
@@ -181,7 +182,7 @@
                     <view key="view" contentMode="scaleToFill" id="OFy-xY-MfX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="xOy-Sn-epJ"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="IMC" image="scale.png" id="5Ff-Lp-OvH"/>
