@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -142,14 +143,71 @@
             </objects>
             <point key="canvasLocation" x="1402" y="843"/>
         </scene>
-        <!--View Controller-->
+        <!--Weight Table View Controller-->
         <scene sceneID="1O5-hI-ywF">
             <objects>
-                <viewController id="OYN-Qz-cp7" sceneMemberID="viewController">
+                <viewController id="OYN-Qz-cp7" customClass="WeightTableViewController" customModule="ForFit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WGM-KC-2hS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="U9Q-lo-Kgt">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="194" id="QSh-S0-Wrb" customClass="ViewControllerTableViewCell" customModule="ForFit" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="194"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QSh-S0-Wrb" id="2I9-Qn-79A">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="193.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="O9D-OP-Isf">
+                                                    <rect key="frame" x="15" y="11" width="181" height="172"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="O9D-OP-Isf" secondAttribute="height" multiplier="181:172" id="zYG-PD-ZiV"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YsE-x2-mVt">
+                                                    <rect key="frame" x="204" y="11" width="156" height="48"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="YsE-x2-mVt" secondAttribute="height" multiplier="13:4" id="FOE-ZC-LVz"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="O9D-OP-Isf" firstAttribute="leading" secondItem="2I9-Qn-79A" secondAttribute="leadingMargin" id="35c-o6-onN"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="YsE-x2-mVt" secondAttribute="bottom" constant="124" id="52j-JB-Hwj"/>
+                                                <constraint firstItem="YsE-x2-mVt" firstAttribute="top" secondItem="2I9-Qn-79A" secondAttribute="topMargin" id="8Ok-vJ-bDb"/>
+                                                <constraint firstItem="YsE-x2-mVt" firstAttribute="leading" secondItem="O9D-OP-Isf" secondAttribute="trailing" constant="8" id="EvF-CS-6ru"/>
+                                                <constraint firstItem="YsE-x2-mVt" firstAttribute="trailing" secondItem="2I9-Qn-79A" secondAttribute="trailingMargin" id="Hnw-4h-FKD"/>
+                                                <constraint firstItem="YsE-x2-mVt" firstAttribute="leading" secondItem="O9D-OP-Isf" secondAttribute="trailing" constant="8" id="d2m-cB-FZb"/>
+                                                <constraint firstItem="O9D-OP-Isf" firstAttribute="bottom" secondItem="2I9-Qn-79A" secondAttribute="bottomMargin" id="sq6-lK-5Pp"/>
+                                                <constraint firstItem="O9D-OP-Isf" firstAttribute="top" secondItem="2I9-Qn-79A" secondAttribute="topMargin" id="tCy-pD-0Z1"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="myImage" destination="O9D-OP-Isf" id="38k-LI-WsT"/>
+                                            <outlet property="myLabel" destination="YsE-x2-mVt" id="Nx2-rJ-aaf"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="OYN-Qz-cp7" id="2yN-Po-iNg"/>
+                                    <outlet property="delegate" destination="OYN-Qz-cp7" id="LTY-5S-YAk"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="U9Q-lo-Kgt" firstAttribute="trailing" secondItem="fj2-xY-hDM" secondAttribute="trailing" id="9Zj-of-GMz"/>
+                            <constraint firstItem="U9Q-lo-Kgt" firstAttribute="leading" secondItem="fj2-xY-hDM" secondAttribute="leading" id="YqV-g4-rj5"/>
+                            <constraint firstItem="U9Q-lo-Kgt" firstAttribute="bottom" secondItem="fj2-xY-hDM" secondAttribute="bottom" id="toe-E1-Y5E"/>
+                            <constraint firstItem="U9Q-lo-Kgt" firstAttribute="top" secondItem="fj2-xY-hDM" secondAttribute="top" id="yWN-P4-Lec"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="fj2-xY-hDM"/>
                     </view>
                     <navigationItem key="navigationItem" id="hke-J4-WMM"/>
