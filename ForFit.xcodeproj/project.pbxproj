@@ -33,14 +33,6 @@
 		21A0D263219BBA9F00DC1E1F /* TrainingSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A0D262219BBA9F00DC1E1F /* TrainingSheetViewController.swift */; };
 		21A0D267219BBD9D00DC1E1F /* CustomCellTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A0D265219BBD9D00DC1E1F /* CustomCellTraining.swift */; };
 		21A0D268219BBD9D00DC1E1F /* CustomCellTraining.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21A0D266219BBD9D00DC1E1F /* CustomCellTraining.xib */; };
-		21A0D271219BC2AC00DC1E1F /* panturrilha-hack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21A0D269219BC2AA00DC1E1F /* panturrilha-hack.jpg */; };
-		21A0D272219BC2AC00DC1E1F /* cadeira-extensora.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21A0D26A219BC2AB00DC1E1F /* cadeira-extensora.jpg */; };
-		21A0D273219BC2AC00DC1E1F /* panturrilha-machine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21A0D26B219BC2AB00DC1E1F /* panturrilha-machine.jpg */; };
-		21A0D274219BC2AC00DC1E1F /* hack-machine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21A0D26C219BC2AB00DC1E1F /* hack-machine.jpg */; };
-		21A0D275219BC2AC00DC1E1F /* leg-press.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21A0D26D219BC2AB00DC1E1F /* leg-press.jpg */; };
-		21A0D276219BC2AC00DC1E1F /* flexao-plantar .jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21A0D26E219BC2AB00DC1E1F /* flexao-plantar .jpg */; };
-		21A0D277219BC2AC00DC1E1F /* mesa-flexora.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21A0D26F219BC2AB00DC1E1F /* mesa-flexora.jpg */; };
-		21A0D278219BC2AC00DC1E1F /* agachamento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21A0D270219BC2AB00DC1E1F /* agachamento.jpg */; };
 		4E052E3C1A050F727E6DD8FC /* Pods_ForFit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B9EBDC56E58DB55F340C73 /* Pods_ForFit.framework */; };
 /* End PBXBuildFile section */
 
@@ -73,14 +65,6 @@
 		21A0D262219BBA9F00DC1E1F /* TrainingSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingSheetViewController.swift; sourceTree = "<group>"; };
 		21A0D265219BBD9D00DC1E1F /* CustomCellTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellTraining.swift; sourceTree = "<group>"; };
 		21A0D266219BBD9D00DC1E1F /* CustomCellTraining.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCellTraining.xib; sourceTree = "<group>"; };
-		21A0D269219BC2AA00DC1E1F /* panturrilha-hack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "panturrilha-hack.jpg"; sourceTree = "<group>"; };
-		21A0D26A219BC2AB00DC1E1F /* cadeira-extensora.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cadeira-extensora.jpg"; sourceTree = "<group>"; };
-		21A0D26B219BC2AB00DC1E1F /* panturrilha-machine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "panturrilha-machine.jpg"; sourceTree = "<group>"; };
-		21A0D26C219BC2AB00DC1E1F /* hack-machine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hack-machine.jpg"; sourceTree = "<group>"; };
-		21A0D26D219BC2AB00DC1E1F /* leg-press.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "leg-press.jpg"; sourceTree = "<group>"; };
-		21A0D26E219BC2AB00DC1E1F /* flexao-plantar .jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "flexao-plantar .jpg"; sourceTree = "<group>"; };
-		21A0D26F219BC2AB00DC1E1F /* mesa-flexora.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mesa-flexora.jpg"; sourceTree = "<group>"; };
-		21A0D270219BC2AB00DC1E1F /* agachamento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = agachamento.jpg; sourceTree = "<group>"; };
 		3973A4D1065FFD630B52B5C5 /* Pods-ForFit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForFit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ForFit/Pods-ForFit.debug.xcconfig"; sourceTree = "<group>"; };
 		A0001B5D9093BBAB8ED10AF9 /* Pods-ForFit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForFit.release.xcconfig"; path = "Pods/Target Support Files/Pods-ForFit/Pods-ForFit.release.xcconfig"; sourceTree = "<group>"; };
 		D4B9EBDC56E58DB55F340C73 /* Pods_ForFit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForFit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,14 +135,6 @@
 		2175015E21777AA1001B1B85 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				21A0D270219BC2AB00DC1E1F /* agachamento.jpg */,
-				21A0D26A219BC2AB00DC1E1F /* cadeira-extensora.jpg */,
-				21A0D26E219BC2AB00DC1E1F /* flexao-plantar .jpg */,
-				21A0D26C219BC2AB00DC1E1F /* hack-machine.jpg */,
-				21A0D26D219BC2AB00DC1E1F /* leg-press.jpg */,
-				21A0D26F219BC2AB00DC1E1F /* mesa-flexora.jpg */,
-				21A0D269219BC2AA00DC1E1F /* panturrilha-hack.jpg */,
-				21A0D26B219BC2AB00DC1E1F /* panturrilha-machine.jpg */,
 				212B85212183A04900FF040B /* HackMachine.jpg */,
 				212B85202183A04900FF040B /* LegCurl.jpg */,
 				212B85232183A04900FF040B /* LegExtension.jpg */,
@@ -259,23 +235,15 @@
 				212B85272183A04900FF040B /* LegExtension.jpg in Resources */,
 				2175016021777B7C001B1B85 /* gymer_back.jpg in Resources */,
 				212B85262183A04900FF040B /* LegPress.jpg in Resources */,
-				21A0D278219BC2AC00DC1E1F /* agachamento.jpg in Resources */,
-				21A0D277219BC2AC00DC1E1F /* mesa-flexora.jpg in Resources */,
 				212B851D217D104B00FF040B /* logo.png in Resources */,
-				21A0D272219BC2AC00DC1E1F /* cadeira-extensora.jpg in Resources */,
 				217501592176366C001B1B85 /* GoogleService-Info.plist in Resources */,
 				21712F61217B861D00E9C4E2 /* forms.png in Resources */,
-				21A0D273219BC2AC00DC1E1F /* panturrilha-machine.jpg in Resources */,
 				21712F5F217B85CB00E9C4E2 /* dumbbell.png in Resources */,
-				21A0D274219BC2AC00DC1E1F /* hack-machine.jpg in Resources */,
 				21712F63217B866000E9C4E2 /* stopwatch.png in Resources */,
 				2175014E2176310E001B1B85 /* Assets.xcassets in Resources */,
-				21A0D275219BC2AC00DC1E1F /* leg-press.jpg in Resources */,
 				21712F5D217B857B00E9C4E2 /* scale.png in Resources */,
 				21712F65217B869900E9C4E2 /* credit-card.png in Resources */,
-				21A0D276219BC2AC00DC1E1F /* flexao-plantar .jpg in Resources */,
 				21A0D268219BBD9D00DC1E1F /* CustomCellTraining.xib in Resources */,
-				21A0D271219BC2AC00DC1E1F /* panturrilha-hack.jpg in Resources */,
 				2175014C21763106001B1B85 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
