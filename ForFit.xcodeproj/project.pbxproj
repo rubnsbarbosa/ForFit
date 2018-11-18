@@ -33,6 +33,8 @@
 		21A0D263219BBA9F00DC1E1F /* TrainingSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A0D262219BBA9F00DC1E1F /* TrainingSheetViewController.swift */; };
 		21A0D267219BBD9D00DC1E1F /* CustomCellTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A0D265219BBD9D00DC1E1F /* CustomCellTraining.swift */; };
 		21A0D268219BBD9D00DC1E1F /* CustomCellTraining.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21A0D266219BBD9D00DC1E1F /* CustomCellTraining.xib */; };
+		21A0D2BA21A1A8E200DC1E1F /* StopwatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A0D2B921A1A8E200DC1E1F /* StopwatchViewController.swift */; };
+		21A0D2BC21A1AA6100DC1E1F /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A0D2BB21A1AA6100DC1E1F /* Stopwatch.swift */; };
 		4E052E3C1A050F727E6DD8FC /* Pods_ForFit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B9EBDC56E58DB55F340C73 /* Pods_ForFit.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +67,8 @@
 		21A0D262219BBA9F00DC1E1F /* TrainingSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingSheetViewController.swift; sourceTree = "<group>"; };
 		21A0D265219BBD9D00DC1E1F /* CustomCellTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellTraining.swift; sourceTree = "<group>"; };
 		21A0D266219BBD9D00DC1E1F /* CustomCellTraining.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCellTraining.xib; sourceTree = "<group>"; };
+		21A0D2B921A1A8E200DC1E1F /* StopwatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchViewController.swift; sourceTree = "<group>"; };
+		21A0D2BB21A1AA6100DC1E1F /* Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
 		3973A4D1065FFD630B52B5C5 /* Pods-ForFit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForFit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ForFit/Pods-ForFit.debug.xcconfig"; sourceTree = "<group>"; };
 		A0001B5D9093BBAB8ED10AF9 /* Pods-ForFit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForFit.release.xcconfig"; path = "Pods/Target Support Files/Pods-ForFit/Pods-ForFit.release.xcconfig"; sourceTree = "<group>"; };
 		D4B9EBDC56E58DB55F340C73 /* Pods_ForFit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForFit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +124,8 @@
 				2175014621763106001B1B85 /* AppDelegate.swift */,
 				2175014821763106001B1B85 /* WeightTableViewController.swift */,
 				2175014A21763106001B1B85 /* Main.storyboard */,
+				21A0D2BB21A1AA6100DC1E1F /* Stopwatch.swift */,
+				21A0D2B921A1A8E200DC1E1F /* StopwatchViewController.swift */,
 				21A0D262219BBA9F00DC1E1F /* TrainingSheetViewController.swift */,
 				212B851E21839DC900FF040B /* ViewControllerTableViewCell.swift */,
 				212B851A217D05BE00FF040B /* ImcViewController.swift */,
@@ -303,9 +309,11 @@
 				217501622178CC17001B1B85 /* LoginViewController.swift in Sources */,
 				2175014921763106001B1B85 /* WeightTableViewController.swift in Sources */,
 				21A0D267219BBD9D00DC1E1F /* CustomCellTraining.swift in Sources */,
+				21A0D2BA21A1A8E200DC1E1F /* StopwatchViewController.swift in Sources */,
 				21A0D263219BBA9F00DC1E1F /* TrainingSheetViewController.swift in Sources */,
 				212B851F21839DC900FF040B /* ViewControllerTableViewCell.swift in Sources */,
 				21712F5B217B81E000E9C4E2 /* MainTabController.swift in Sources */,
+				21A0D2BC21A1AA6100DC1E1F /* Stopwatch.swift in Sources */,
 				2175014721763106001B1B85 /* AppDelegate.swift in Sources */,
 				212B851B217D05BE00FF040B /* ImcViewController.swift in Sources */,
 			);
