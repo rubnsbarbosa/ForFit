@@ -36,6 +36,7 @@
 		2178B65E21BD5F3D0074744E /* machine.png in Resources */ = {isa = PBXBuildFile; fileRef = 2178B65D21BD5F3D0074744E /* machine.png */; };
 		2178B66021BD5FF00074744E /* chestpress.png in Resources */ = {isa = PBXBuildFile; fileRef = 2178B65F21BD5FF00074744E /* chestpress.png */; };
 		2178B66221BD60600074744E /* vibratingplates.png in Resources */ = {isa = PBXBuildFile; fileRef = 2178B66121BD60600074744E /* vibratingplates.png */; };
+		2178B66421BD88D80074744E /* PaymentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2178B66321BD88D80074744E /* PaymentTableViewController.swift */; };
 		21A0D263219BBA9F00DC1E1F /* TrainingSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A0D262219BBA9F00DC1E1F /* TrainingSheetViewController.swift */; };
 		21A0D267219BBD9D00DC1E1F /* CustomCellTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A0D265219BBD9D00DC1E1F /* CustomCellTraining.swift */; };
 		21A0D268219BBD9D00DC1E1F /* CustomCellTraining.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21A0D266219BBD9D00DC1E1F /* CustomCellTraining.xib */; };
@@ -76,6 +77,7 @@
 		2178B65D21BD5F3D0074744E /* machine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = machine.png; path = ../../../Downloads/machine.png; sourceTree = "<group>"; };
 		2178B65F21BD5FF00074744E /* chestpress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chestpress.png; sourceTree = "<group>"; };
 		2178B66121BD60600074744E /* vibratingplates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vibratingplates.png; sourceTree = "<group>"; };
+		2178B66321BD88D80074744E /* PaymentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTableViewController.swift; sourceTree = "<group>"; };
 		21A0D262219BBA9F00DC1E1F /* TrainingSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingSheetViewController.swift; sourceTree = "<group>"; };
 		21A0D265219BBD9D00DC1E1F /* CustomCellTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellTraining.swift; sourceTree = "<group>"; };
 		21A0D266219BBD9D00DC1E1F /* CustomCellTraining.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCellTraining.xib; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				217501582176366C001B1B85 /* GoogleService-Info.plist */,
 				2175014621763106001B1B85 /* AppDelegate.swift */,
 				2175014821763106001B1B85 /* WeightTableViewController.swift */,
+				2178B66321BD88D80074744E /* PaymentTableViewController.swift */,
 				2175014A21763106001B1B85 /* Main.storyboard */,
 				21A0D2BB21A1AA6100DC1E1F /* Stopwatch.swift */,
 				21A0D2B921A1A8E200DC1E1F /* StopwatchViewController.swift */,
@@ -340,6 +343,7 @@
 				21A0D2BC21A1AA6100DC1E1F /* Stopwatch.swift in Sources */,
 				2175014721763106001B1B85 /* AppDelegate.swift in Sources */,
 				212B851B217D05BE00FF040B /* ImcViewController.swift in Sources */,
+				2178B66421BD88D80074744E /* PaymentTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
