@@ -30,6 +30,12 @@
 		2175015D21764048001B1B85 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2175015C21764048001B1B85 /* FirebaseCore.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		2175016021777B7C001B1B85 /* gymer_back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2175015F21777B7C001B1B85 /* gymer_back.jpg */; };
 		217501622178CC17001B1B85 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217501612178CC16001B1B85 /* LoginViewController.swift */; };
+		2178B65821BD5DCC0074744E /* pecdeck.png in Resources */ = {isa = PBXBuildFile; fileRef = 2178B65721BD5DCC0074744E /* pecdeck.png */; };
+		2178B65A21BD5E3F0074744E /* crossover.png in Resources */ = {isa = PBXBuildFile; fileRef = 2178B65921BD5E3F0074744E /* crossover.png */; };
+		2178B65C21BD5EE70074744E /* climber.png in Resources */ = {isa = PBXBuildFile; fileRef = 2178B65B21BD5EE70074744E /* climber.png */; };
+		2178B65E21BD5F3D0074744E /* machine.png in Resources */ = {isa = PBXBuildFile; fileRef = 2178B65D21BD5F3D0074744E /* machine.png */; };
+		2178B66021BD5FF00074744E /* chestpress.png in Resources */ = {isa = PBXBuildFile; fileRef = 2178B65F21BD5FF00074744E /* chestpress.png */; };
+		2178B66221BD60600074744E /* vibratingplates.png in Resources */ = {isa = PBXBuildFile; fileRef = 2178B66121BD60600074744E /* vibratingplates.png */; };
 		21A0D263219BBA9F00DC1E1F /* TrainingSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A0D262219BBA9F00DC1E1F /* TrainingSheetViewController.swift */; };
 		21A0D267219BBD9D00DC1E1F /* CustomCellTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A0D265219BBD9D00DC1E1F /* CustomCellTraining.swift */; };
 		21A0D268219BBD9D00DC1E1F /* CustomCellTraining.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21A0D266219BBD9D00DC1E1F /* CustomCellTraining.xib */; };
@@ -64,6 +70,12 @@
 		2175015C21764048001B1B85 /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2175015F21777B7C001B1B85 /* gymer_back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gymer_back.jpg; path = ../../screens/gymer_back.jpg; sourceTree = "<group>"; };
 		217501612178CC16001B1B85 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2178B65721BD5DCC0074744E /* pecdeck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pecdeck.png; sourceTree = "<group>"; };
+		2178B65921BD5E3F0074744E /* crossover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crossover.png; sourceTree = "<group>"; };
+		2178B65B21BD5EE70074744E /* climber.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = climber.png; path = ../../../Downloads/climber.png; sourceTree = "<group>"; };
+		2178B65D21BD5F3D0074744E /* machine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = machine.png; path = ../../../Downloads/machine.png; sourceTree = "<group>"; };
+		2178B65F21BD5FF00074744E /* chestpress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chestpress.png; sourceTree = "<group>"; };
+		2178B66121BD60600074744E /* vibratingplates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vibratingplates.png; sourceTree = "<group>"; };
 		21A0D262219BBA9F00DC1E1F /* TrainingSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingSheetViewController.swift; sourceTree = "<group>"; };
 		21A0D265219BBD9D00DC1E1F /* CustomCellTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellTraining.swift; sourceTree = "<group>"; };
 		21A0D266219BBD9D00DC1E1F /* CustomCellTraining.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCellTraining.xib; sourceTree = "<group>"; };
@@ -141,6 +153,12 @@
 		2175015E21777AA1001B1B85 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				2178B66121BD60600074744E /* vibratingplates.png */,
+				2178B65F21BD5FF00074744E /* chestpress.png */,
+				2178B65D21BD5F3D0074744E /* machine.png */,
+				2178B65B21BD5EE70074744E /* climber.png */,
+				2178B65921BD5E3F0074744E /* crossover.png */,
+				2178B65721BD5DCC0074744E /* pecdeck.png */,
 				212B85212183A04900FF040B /* HackMachine.jpg */,
 				212B85202183A04900FF040B /* LegCurl.jpg */,
 				212B85232183A04900FF040B /* LegExtension.jpg */,
@@ -238,19 +256,25 @@
 				212B85242183A04900FF040B /* LegCurl.jpg in Resources */,
 				217501512176310E001B1B85 /* LaunchScreen.storyboard in Resources */,
 				212B85252183A04900FF040B /* HackMachine.jpg in Resources */,
+				2178B65E21BD5F3D0074744E /* machine.png in Resources */,
+				2178B65821BD5DCC0074744E /* pecdeck.png in Resources */,
+				2178B65C21BD5EE70074744E /* climber.png in Resources */,
 				212B85272183A04900FF040B /* LegExtension.jpg in Resources */,
 				2175016021777B7C001B1B85 /* gymer_back.jpg in Resources */,
+				2178B65A21BD5E3F0074744E /* crossover.png in Resources */,
 				212B85262183A04900FF040B /* LegPress.jpg in Resources */,
 				212B851D217D104B00FF040B /* logo.png in Resources */,
 				217501592176366C001B1B85 /* GoogleService-Info.plist in Resources */,
 				21712F61217B861D00E9C4E2 /* forms.png in Resources */,
 				21712F5F217B85CB00E9C4E2 /* dumbbell.png in Resources */,
+				2178B66021BD5FF00074744E /* chestpress.png in Resources */,
 				21712F63217B866000E9C4E2 /* stopwatch.png in Resources */,
 				2175014E2176310E001B1B85 /* Assets.xcassets in Resources */,
 				21712F5D217B857B00E9C4E2 /* scale.png in Resources */,
 				21712F65217B869900E9C4E2 /* credit-card.png in Resources */,
 				21A0D268219BBD9D00DC1E1F /* CustomCellTraining.xib in Resources */,
 				2175014C21763106001B1B85 /* Main.storyboard in Resources */,
+				2178B66221BD60600074744E /* vibratingplates.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

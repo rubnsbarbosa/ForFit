@@ -45,7 +45,7 @@ class StopwatchViewController: UIViewController {
         if watch.isRunning {
             let minutes = Int(watch.elapsdTime / 60)
             let seconds = Int(watch.elapsdTime.truncatingRemainder(dividingBy: 60))
-            let tenOfSeconds = Int(10 * watch.elapsdTime.truncatingRemainder(dividingBy: 60))
+            let tenOfSeconds = Int(watch.elapsdTime.truncatingRemainder(dividingBy: 60) * 10)
             
             elapsedTimeLabel.text = String(format: "%02d:%02d.%d", minutes, seconds, tenOfSeconds)
         } else {
