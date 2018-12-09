@@ -19,7 +19,13 @@ class StopwatchViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        btnStart.layer.cornerRadius = 22.0
+        btnStart.layer.borderWidth = 4
+        btnStart.layer.borderColor = UIColor.white.cgColor
+        
+        btnStop.layer.cornerRadius = 22.0
+        btnStop.layer.borderWidth = 4
+        btnStop.layer.borderColor = UIColor.white.cgColor
     }
 
     override func didReceiveMemoryWarning() {
